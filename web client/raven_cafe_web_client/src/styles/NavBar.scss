@@ -1,0 +1,41 @@
+$maincolor: #212529;
+
+.container {
+    background: $maincolor;
+    // height: 100%;
+    // width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 5px;
+
+        img {
+            width: 100px;
+            height: 50px;
+            object-fit: cover;
+        }
+    }
+
+    .linkContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 0px 20px;
+
+        .navItem {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+}

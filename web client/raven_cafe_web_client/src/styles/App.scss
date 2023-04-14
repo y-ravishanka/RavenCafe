@@ -1,4 +1,12 @@
-
 .app {
-    
+    .navBar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .bobyContent {
+        padding-top: 60px;
+    }
 }
