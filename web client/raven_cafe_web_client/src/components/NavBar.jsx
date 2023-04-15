@@ -13,7 +13,10 @@ const NavBar = () => {
             </div>
             <div className="linkContainer">
                 <Link to={"/"} className='navItem'>Home</Link>
+                <Link to={'/menu'} className="navItem">Today's Menu</Link>
+                <Link to={'/blog'} className="navItem">Blog</Link>
                 <Link to={"/about"} className='navItem'>About</Link>
+                <Link to={'feedBack'} className="navItem">FeedBack</Link>
             </div>
         </div>
     );

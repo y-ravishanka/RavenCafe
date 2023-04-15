@@ -1,4 +1,5 @@
 $maincolor: #212529;
+$navLink: #8C9191;
 
 .container {
     background: $maincolor;
@@ -28,7 +29,7 @@ $maincolor: #212529;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        // gap: 20px;
         padding: 0px 20px;
 
         .navItem {
@@ -36,6 +37,13 @@ $maincolor: #212529;
             color: white;
             font-weight: bold;
             font-size: 20px;
+            transition: 0.3s;
+            padding: 0px 10px;
+        }
+
+        .navItem:hover {
+            color: $navLink;
+            // background: white;
         }
     }
 }

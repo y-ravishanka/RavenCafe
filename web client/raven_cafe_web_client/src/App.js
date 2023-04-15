@@ -5,6 +5,10 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import '../src/styles/App.scss';
+import MenuBord from "./pages/Menu";
+import FeedBack from "./pages/FeedBack";
+import BlogHome from "./pages/BlogHome";
+import Creator from "./pages/Creator";
 
 const Layout = () => {
   return (
@@ -28,8 +32,24 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />
+      },
+      {
+        path: '/menu',
+        element: <MenuBord />
+      },
+      {
+        path: '/feedBack',
+        element: <FeedBack />
       }
     ]
+  },
+  {
+    path: '/blog',
+    element: <BlogHome />
+  },
+  {
+    path: '/creator',
+    element: <Creator />
   }
 ]);
 

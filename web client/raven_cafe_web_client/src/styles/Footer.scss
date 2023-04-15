@@ -1,0 +1,52 @@
+$maincolor: #212529;
+$footerColor: #8C9191;
+
+.footerContainer {
+    background: $maincolor;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0px;
+
+    .createTitle {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: bold;
+
+        a {
+            color: $footerColor;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: white;
+        }
+    }
+
+    .footerList {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        li {
+            color: white;
+            font-weight: bold;
+            font-size: 17px;
+            
+            .linkItem {
+                color: $footerColor;
+                text-decoration: none;
+                transition: 0.3s;
+            }
+
+            .linkItem:hover {
+                color: white;
+            }
+        }
+    }
+}
