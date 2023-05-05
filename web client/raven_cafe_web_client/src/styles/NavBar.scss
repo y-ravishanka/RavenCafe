@@ -34,15 +34,16 @@ $navLink: #8C9191;
 
         .navItem {
             text-decoration: none;
-            color: white;
+            color: $navLink;
             font-weight: bold;
             font-size: 20px;
             transition: 0.3s;
             padding: 0px 10px;
+            font-family: 'Times New Roman', Times, serif;
         }
 
         .navItem:hover {
-            color: $navLink;
+            color: white;
             // background: white;
         }
     }
